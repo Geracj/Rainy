@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- style.css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- icons -->
+  <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900" rel="stylesheet">
+  <!-- icon -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://cdn1.iconfinder.com/data/icons/weather-19/32/drop-16.png">
+  <!-- title -->
+  <title> Ease Site  </title>
+
+</head>
+<body>
+
+      <!-- header -->
+        <header>
+          <div class="header__logo">
+            <h1> Rainy </h1>
+          </div>
+          <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#home"> home </a>
+                <a href="#about"> about </a>
+                <a href="#news"> news </a>
+                <a href="#contact"> contact </a>
+                <a href="#javascript.void(0);" class="icon">
+                  <ion-icon class="i" name="menu"></ion-icon>
+                </a>
+            </div>
+          </nav>
+        </header>
+
+        <!-- main -->
+        <main>
+          <div class="main-container">
+            <div class="main-text">
+              <a name="home"></a>
+              <h1> Personal Website </h1>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, architecto! Blanditiis, architecto! Blanditiis, architecto!</p>
+              <div class="list">
+                <ul>
+                  <li> Rainy </li>
+                  <li> Rainy </li>
+                  <li> Rainy </li>
+                </ul>
+              </div>
+              <button id="myBtn"> Show more! </button>
+
+              <!-- modal window -->
+
+              <div class="modal" id="myModal">
+                <div class="modal-container">
+                  <span class="close"> &times; </span>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="main-img">
+              <img src="https://cdn0.iconfinder.com/data/icons/ballicons/128/5c-512.png" alt="" width="100%">
+            </div>
+
+          </div>
+
+          <!-- to top btn -->
+          <button id="toTopBtn">
+            Top
+          </button>
+        </main>
+
+        <!-- slider -->
+        <section class="slider-wrap">
+          <a name="about"></a>
+          <h1>About</h1>
+          <div class="slider-container">
+
+            <div class="slide-box fade">
+              <img src="./img/1.jpeg" alt="" width="100%" height="550px">
+              <div class="text"> Rain </div>
+            </div>
+
+            <div class="slide-box fade">
+              <img src="./img/2.jpeg" alt="" width="100%" height="550px">
+              <div class="text"> Rain </div>
+            </div>
+
+            <div class="slide-box fade">
+              <img src="./img/3.jpeg" alt="" width="100%" height="550px">
+              <div class="text"> Rain </div>
+            </div>
+
+            <div class="slide-box fade">
+              <img src="./img/4.jpeg" alt="" width="100%" height="550px">
+              <div class="text"> Rain </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)" > &#10094;</a>
+            <a class="next" onclick="plusSlides(1)" > &#10095;</a>
+
+          </div>
+          <br>
+          <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+        </section>
+
+        <!-- video -->
+
+        <div class="video-wrap">
+          <a name="news"></a>
+          <h1> News </h1>
+          <div class="video-container">
+
+            <div class="video-text">
+              <h1> Watch The Video </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Tempore tenetur, recusandae necessitatibus voluptatum dolores minima
+                amet sint maiores saepe nihil!
+              </p>
+              <div class="video-social">
+                <a href="https://www.apple.com/">
+                  <ion-icon name="logo-apple"></ion-icon>
+                </a>
+                <a href="https://www.android.com/">
+                  <ion-icon name="logo-android"></ion-icon>
+                </a>
+                <a href="https://www.microsoft.com/ru-ru/windows">
+                  <ion-icon name="logo-windows"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <div class="video">
+              <video id="myVideo" width="100%" height="300px" controls autoplay loop muted>
+                <source src="./video/video.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+
+        <!-- team -->
+        <section class="team-wrap">
+          <div class="team-text">
+            <h1> Our Team </h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, rerum!</p>
+          </div>
+          <div class="team-container">
+
+            <div class="our-team">
+              <img src="./img/t1.png" alt="Person_Logo">
+              <h6> Pavel </h6>
+              <p> Front-end Developer </p>
+            </div>
+
+            <div class="our-team">
+              <img src="./img/t2.png" alt="Person_Logo">
+              <h6> Ann </h6>
+              <p> Designer </p>
+            </div>
+
+            <div class="our-team">
+              <img src="./img/t3.png" alt="Person_Logo">
+              <h6> Vladimir</h6>
+              <p> Back-end Developer  </p>
+            </div>
+
+            <div class="our-team">
+              <img src="./img/t4.png" alt="Person_Logo">
+              <h6> Kate </h6>
+              <p> Front-end Developer </p>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="portfolio">
+          <h1> Portfolio </h1>
+          <div class="portfolio-container">
+
+            <div class="accor">
+              <img src="./img/a1.jpeg" width="100%" height="360px" alt="#">
+            </div>
+            <div class="accor-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="accor">
+              <img src="./img/a2.jpeg" width="100%" height="360px" alt="#">
+            </div>
+            <div class="accor-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="accor">
+              <img src="./img/a3.jpeg" width="100%" height="360px" alt="#">
+            </div>
+            <div class="accor-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- contact -->
+
+        <section class="contact">
+          <a name="contact"></a>
+          <h1> Contact </h1>
+          <div class="contact-container">
+            <div class="map">
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3060153584!2d-74.2598711799434!3d40.69714940555201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2sua!4v1532073339227"
+              width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="contact-text">
+              <h3> Contact us </h3>
+              <p class="h3-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Veritatis ea et, cupiditate a enim nobis!
+              </p>
+              <div class="contact-socials">
+                <a href="https://www.facebook.com/">
+                   <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://twitter.com/?lang=ru">
+                   <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="https://plus.google.com/discover">
+                   <ion-icon name="logo-googleplus"></ion-icon>
+                </a>
+
+              </div>
+
+              <div class="contact-contact">
+
+                <div class="contact-phone">
+                  <a href="#">
+                    <ion-icon name="call"></ion-icon>
+                  </a>
+                  <p> : 011-7-495-123-45-67 </p>
+                </div>
+
+                <div class="contact-email">
+                  <a href="#">
+                    <ion-icon name="mail"></ion-icon>
+                  </a>
+                  <p> : rain@gmail.com </p>
+                </div>
+
+                <div class="contact-location">
+                  <a href="#">
+                    <ion-icon name="locate"></ion-icon>
+                  </a>
+                  <p> : NY, USA </p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+
+    <!-- script -->
+    <script src="main.js"></script>
+</body>
+</html>
