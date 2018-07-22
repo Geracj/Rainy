@@ -330,7 +330,6 @@ main {
 .team-container {
   width: 80%;
   margin: 50px auto;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   text-align: center;
